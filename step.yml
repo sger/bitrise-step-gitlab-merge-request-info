@@ -67,10 +67,10 @@ toolkit:
 
 
 inputs:
-  - gitlab_user_token: 
+  - gitlab_bot_token: 
     opts:
-      title: "Gitlab user token"
-      summary: Gitlab user token
+      title: "Gitlab bot token"
+      summary: Gitlab bot token
       description: |
         Description of this input.
 

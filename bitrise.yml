@@ -46,7 +46,7 @@ workflows:
         inputs:
         - content: |
             #!/bin/bash
-            echo "Get Gitlab merge request information $(IS_MR_DRAFT)"
+            echo "Get Gitlab merge request information (IS_MR_DRAFT): $IS_MR_DRAFT"
 
 
   # ----------------------------------------------------------------
