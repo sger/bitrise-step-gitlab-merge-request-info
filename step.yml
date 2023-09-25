@@ -67,10 +67,43 @@ toolkit:
 
 
 inputs:
-  - example_step_input: Default Value - you can leave this empty if you want to
+  - gitlab_user_token: 
     opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Gitlab user token"
+      summary: Gitlab user token
+      description: |
+        Description of this input.
+
+        Can be Markdown formatted text.
+      is_expand: true
+      is_required: true
+      value_options: []
+  - gitlab_api_url: 
+    opts:
+      title: "Gitlab API URL"
+      summary: Gitlab API URL
+      description: |
+        Description of this input.
+
+        Can be Markdown formatted text.
+      is_expand: true
+      is_required: true
+      value_options: []
+  - project_id: 
+    opts:
+      title: "Project ID"
+      summary: Project ID
+      description: |
+        Description of this input.
+
+        Can be Markdown formatted text.
+      is_expand: true
+      is_required: true
+      value_options: []
+  - bitrise_pull_request: 
+    opts:
+      title: "Pull Request ID"
+      summary: Pull Request ID
       description: |
         Description of this input.
 
@@ -80,10 +113,10 @@ inputs:
       value_options: []
 
 outputs:
-  - EXAMPLE_STEP_OUTPUT:
+  - IS_MR_DRAFT:
     opts:
-      title: "Example Step Output"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Merge request draft"
+      summary: "Merge request draft"
       description: |
         Description of this output.
 
